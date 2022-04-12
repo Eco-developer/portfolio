@@ -6,7 +6,6 @@ import {
 import { motion } from 'framer-motion';
 import { 
   SkillInterface,
-  ExperienceInterface,
 } from '../../interfaces';
 import { dataJson } from '../../constants/index';
 import './Skills.scss';
@@ -19,20 +18,33 @@ const Skills = () => {
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
           {dataJson.skills.map((skill: SkillInterface) => (
-            <motion.div
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
-              key={skill.name}
-            >
-              <div
-                className="app__flex"
-                style={{ backgroundColor: skill.bgColor }}
+            <>
+              <ReactTooltip 
+                place='top'
+                type='info'
+                effect='float'
+                textColor='#fff'
+                id={`skill-${skill.name}`}
               >
-                <img src={skill.icon} alt={skill.name} />
-              </div>
-              <p className="p-text">{skill.name}</p>
-            </motion.div>
+                {skill.name}
+              </ReactTooltip>
+              <motion.div
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duration: 0.5 }}
+                className="app__skills-item app__flex"
+                key={skill.name}
+                data-tip 
+                data-for={`skill-${skill.name}`}
+              >
+                <div
+                  className="app__flex"
+                  style={{ backgroundColor: skill.bgColor }}
+                  >
+                  <img src={skill.icon} alt={skill.name} />
+                </div>
+                <p className="p-text">{skill.name}</p>
+              </motion.div>
+            </>
           ))}
         </motion.div>
         

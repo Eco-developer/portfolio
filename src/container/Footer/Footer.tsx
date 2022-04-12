@@ -1,7 +1,6 @@
 import emailjs from '@emailjs/browser';
 import { 
   ChangeEvent, 
-  RefObject, 
   SyntheticEvent, 
   useRef, 
   useState 
@@ -33,11 +32,11 @@ const Footer = () => {
     setLoading(true);
     emailjs.sendForm(credentials.serviceId, credentials.templateId, form.current || '', credentials.publicKey)
       .then((result) => {
-          console.log(result.text);
-          setLoading(false);
+        setLoading(false);
+        setIsFormSubmitted(true);
       }, (error) => {
-          console.log(error.text);
-          setLoading(false);
+        setLoading(false);
+        setIsFormSubmitted(true);
       });
   };
 

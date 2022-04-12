@@ -24,10 +24,10 @@ export const mongoDb = `${process.env.PUBLIC_URL}/assets/mongodb.png`;
 export const sql = `${process.env.PUBLIC_URL}/assets/sql.png`;
 export const reactNative = `${process.env.PUBLIC_URL}/assets/react-native.png`;
 
-export const about01 = `${process.env.PUBLIC_URL}/assets/about01.png`;
-export const about02 = `${process.env.PUBLIC_URL}/assets/about02.png`;
-export const about03 = `${process.env.PUBLIC_URL}/assets/about03.png`;
-export const about04 = `${process.env.PUBLIC_URL}/assets/about04.png`;
+export const about01 = `${process.env.PUBLIC_URL}/assets/about01.jpg`;
+export const about02 = `${process.env.PUBLIC_URL}/assets/about02.jpg`;
+export const about03 = `${process.env.PUBLIC_URL}/assets/about03.jpg`;
+export const about04 = `${process.env.PUBLIC_URL}/assets/about04.gif`;
 
 export const profile = `${process.env.PUBLIC_URL}/assets/profile.png`;
 export const circle = `${process.env.PUBLIC_URL}/assets/circle.svg`;

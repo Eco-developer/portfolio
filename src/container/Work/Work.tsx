@@ -4,13 +4,13 @@ import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './Work.scss';
-import { ProyectInterface } from '../../interfaces';
+import { ProjectInterface } from '../../interfaces';
 import { dataJson } from '../../constants/index';
 
 
 
 const Work = () => {
-  const [filterWork, setFilterWork] = useState<ProyectInterface[]>(dataJson.proyects);
+  const [filterWork, setFilterWork] = useState<ProjectInterface[]>(dataJson.projects);
   const [activeFilter, setActiveFilter] = useState<string>('All');
   const [animateCard, setAnimateCard] = useState<{y: number, opacity: number}>({ y: 0, opacity: 1 });
 
@@ -22,16 +22,16 @@ const Work = () => {
       setAnimateCard({ y: 0, opacity: 1 });
 
       if (item === 'All') {
-        setFilterWork(dataJson.proyects);
+        setFilterWork(dataJson.projects);
       } else {
-        setFilterWork(dataJson.proyects.filter((work: ProyectInterface) => work.tags.includes(item)));
+        setFilterWork(dataJson.projects.filter((work: ProjectInterface) => work.tags.includes(item)));
       }
     }, 500);
   };
 
   return (
     <>
-      <h2 className="head-text">My amezing <span>Proyects</span></h2>
+      <h2 className="head-text">My amezing <span>Projects</span></h2>
 
       <div className="app__work-filter">
         {['UI/UX', 'Front-end', 'FullStack', 'React', 'Nextjs', 'All'].map((item: string, index: number) => (
@@ -50,7 +50,7 @@ const Work = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {filterWork.map((work: ProyectInterface, index: number) => (
+        {filterWork.map((work: ProjectInterface, index: number) => (
           <div className="app__work-item app__flex" key={index}>
             <div
               className="app__work-img app__flex"

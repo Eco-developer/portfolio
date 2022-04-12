@@ -5,9 +5,24 @@ export const dataJson : DataJson = {
     abouts: [
         {
           imgUrl: images.about01,
-          title: 'About',
-          description: 'web deveploper',
-        }
+          title: 'Front end',
+          description: 'I can build beautifull UI with the latest tecnologies.',
+        },
+        {
+            imgUrl: images.about02,
+            title: 'Back end',
+            description: 'Or create the apis nedded for your business.',
+        },
+        {
+            imgUrl: images.about03,
+            title: 'Fullstack',
+            description: 'And even make end to end products with the best quality in the market.',
+        },
+        {
+            imgUrl: images.about04,
+            title: 'Responsive design',
+            description: 'Designed for every device.',
+        },
     ],
     skills : [
         {
@@ -104,7 +119,7 @@ export const dataJson : DataJson = {
             ]
         }
     ],
-    proyects: [
+    projects: [
         {
             imgUrl: images.youtube,
             name: 'Youtube clone',

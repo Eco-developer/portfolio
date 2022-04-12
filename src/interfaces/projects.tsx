@@ -1,4 +1,4 @@
-export interface ProyectInterface {
+export interface ProjectInterface {
     imgUrl: string,
     name: string,
     projectLink: string,
