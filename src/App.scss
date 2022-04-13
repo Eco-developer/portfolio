@@ -116,22 +116,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    cursor: pointer;
     transition: all 0.3s ease-in-out;
-
-    svg {
-      width: 15px;
-      height: 15px;
-      color: var(--gray-color);
+    a {
+      color: inherit;
+      svg {
+        width: 15px;
+        height: 15px;
+        color: var(--gray-color);
+        transition: all 0.3s ease-in-out;
+      }
     }
 
     &:hover {
       background-color: var(--secondary-color);
       border-color: var(--secondary-color);
-
-      svg {
-        color: var(--white-color);
+      a {
+        svg {
+          color: var(--white-color);
+        }
       }
+        
     }
 
     @media screen and (min-width: 2000px) {
