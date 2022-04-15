@@ -4,7 +4,7 @@ interface Props {
 
 const NavigationDots = ({ active }: Props) => (
   <div className="app__navigation">
-    {['home', 'about', 'skills', 'work',  'contact'].map((item: string, index: number) => (
+    {['home', 'about', 'experience', 'skills', 'work',  'contact'].map((item: string, index: number) => (
       <a
         href={`#${item}`}
         key={item + index}

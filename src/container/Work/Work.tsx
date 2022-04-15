@@ -1,13 +1,17 @@
-import { useState, useEffect } from 'react';
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
+import { useState } from 'react';
+import { 
+  AiFillEye, 
+  AiFillGithub 
+} from 'react-icons/ai';
 import { motion } from 'framer-motion';
 
-import { AppWrap, MotionWrap } from '../../wrapper';
-import './Work.scss';
+import { 
+  AppWrap, 
+  MotionWrap 
+} from '../../wrapper';
 import { ProjectInterface } from '../../interfaces';
 import { dataJson } from '../../constants/index';
-
-
+import './Work.scss';
 
 const Work = () => {
   const [filterWork, setFilterWork] = useState<ProjectInterface[]>(dataJson.projects);

@@ -3,8 +3,10 @@ import {
   Footer, 
   Header, 
   Skills, 
-  Work
-} from './container';import { Navbar } from './components';
+  Work,
+  Experience,
+} from './container';
+import { Navbar } from './components';
 import './App.scss';
 
 const App = () => (
@@ -12,6 +14,7 @@ const App = () => (
     <Navbar />
     <Header />
     <About />
+    <Experience />
     <Skills />
     <Work />
     <Footer />

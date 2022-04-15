@@ -109,14 +109,12 @@ export const dataJson : DataJson = {
     ],
     experiences : [
         {
-            year: '2021',
-            works: [  
-                {
-                name: 'FullStack developer',
-                company: 'Outsorcing',
-                desc: 'Build user interface',
-                }
-            ]
+            year: 'November 2021 - present',
+            name: 'FullStack developer',
+            company: 'Outsorcing',
+            description: 'Build user interface',
+            acomplishment: [],
+            resposabilities: [],
         }
     ],
     projects: [
