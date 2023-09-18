@@ -28,12 +28,12 @@ const Header = () => (
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">Hello, I am</p>
-            <h1 className="head-text">Jose</h1>
+            <h1 className="head-text">José Quesada</h1>
           </div>
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">Full stack developer</p>
+          <p className="p-text">Frontend developer</p>
         </div>
       </div>
     </motion.div>
@@ -57,7 +57,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[ images.redux, images.react,images.node].map((circle: string, index: number) => (
+      {[ images.redux, images.react,images.nextjs].map((circle: string, index: number) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>
