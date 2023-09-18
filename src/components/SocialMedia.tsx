@@ -13,16 +13,6 @@ const SocialMedia = () => (
         <BsLinkedin/>
       </a>
     </div>
-    <div>
-      <a href='' target="_blank" rel="noreferrer">
-        <FaFacebookF />
-      </a>
-    </div>
-    <div>
-      <a href='' target="_blank" rel="noreferrer">
-        <BsInstagram />
-      </a>
-    </div>
   </div>
 );
 
