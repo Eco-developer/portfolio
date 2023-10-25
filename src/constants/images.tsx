@@ -29,20 +29,13 @@ export const about02 = `${process.env.PUBLIC_URL}/assets/about02.jpg`;
 export const about03 = `${process.env.PUBLIC_URL}/assets/about03.jpg`;
 export const about04 = `${process.env.PUBLIC_URL}/assets/about04.gif`;
 
-export const profile = `${process.env.PUBLIC_URL}/assets/profile.png`;
+export const profile = `${process.env.PUBLIC_URL}/assets/profile.jpg`;
 export const circle = `${process.env.PUBLIC_URL}/assets/circle.svg`;
 export const logo = `${process.env.PUBLIC_URL}/assets/logo.png`;
 
-export const adidas = `${process.env.PUBLIC_URL}/assets/adidas.png`;
-export const amazon = `${process.env.PUBLIC_URL}/assets/amazon.png`;
-export const asus = `${process.env.PUBLIC_URL}/assets/asus.png`;
-export const bolt = `${process.env.PUBLIC_URL}/assets/bolt.png`;
-export const nb = `${process.env.PUBLIC_URL}/assets/nb.png`;
-export const skype = `${process.env.PUBLIC_URL}/assets/skype.png`;
-export const spotify = `${process.env.PUBLIC_URL}/assets/spotify.png`;
 export const youtube = `${process.env.PUBLIC_URL}/assets/youtube.jpg`;
 export const disneyPlus = `${process.env.PUBLIC_URL}/assets/disneyplus.jpg`;
-export const facebook = `${process.env.PUBLIC_URL}/assets/facebook.avif`;
+export const spaceTurism = `${process.env.PUBLIC_URL}/assets/space-turism.jpg`;
 
 export const mocha = `${process.env.PUBLIC_URL}/assets/mocha.png`;
 export const chai = `${process.env.PUBLIC_URL}/assets/chai.png`;
