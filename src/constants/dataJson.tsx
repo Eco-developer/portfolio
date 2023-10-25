@@ -71,36 +71,6 @@ export const dataJson : DataJson = {
             bgColor: ''
         },
         {
-            icon: images.graphql,
-            name: "GraphQL",
-            bgColor: ''
-        },
-        {
-            icon: images.api,
-            name: "Api",
-            bgColor: ''
-        },
-        {
-            icon: images.node,
-            name: "Node",
-            bgColor: ''
-        },
-        {
-            icon: images.mongoDb,
-            name: "NongoDB",
-            bgColor: ''
-        },
-        {
-            icon: images.sql,
-            name: "SQL",
-            bgColor: ''
-        },
-        {
-            icon: images.testing,
-            name: "Testing",
-            bgColor: ''
-        },
-        {
             icon: images.git,
             name: "Git",
             bgColor: ''
@@ -109,15 +79,35 @@ export const dataJson : DataJson = {
     ],
     experiences : [
         {
-            year: 'November 2021 - present',
-            name: 'FullStack developer',
+            year: 'November 2021 - July 2022',
+            name: 'Fullstack developer',
             company: 'Outsorcing',
             description: 'Build user interface',
             acomplishment: [],
             resposabilities: [],
-        }
+        }, 
+        {
+            year: 'July 2022 - August 2022',
+            name: 'Frontend developer',
+            company: 'Outsorcing',
+            description: 'Build user interface',
+            acomplishment: [],
+            resposabilities: [],
+        }, 
     ],
     projects: [
+        {
+            imgUrl: images.spaceTurism,
+            name: 'Space Turism',
+            projectLink: 'https://space-ecodev.netlify.app/',
+            codeLink : 'https://github.com/Eco-developer/space-tourism-website',
+            title: 'Space Turism',
+            description: 'A code challenge from frontend mentor made with React.',
+            tags: [
+                'React',
+                'Front-end',
+            ]
+        },
         {
             imgUrl: images.youtube,
             name: 'Youtube clone',
@@ -134,31 +124,16 @@ export const dataJson : DataJson = {
         {
             imgUrl: images.disneyPlus,
             name: 'Disney plus clone',
-            projectLink: 'https://disney-plus-demo.herokuapp.com/',
-            codeLink : 'https://github.com/Eco-developer/disney-plus',
+            projectLink: 'https://disney-plus-clone-ecodev.netlify.app/',
+            codeLink : 'https://github.com/Eco-developer/disney-plus-front',
             title: 'Disney plus clone',
             description: 'An awesome disney plus clone made with Javascript, React, Redux, Styled components, Nodejs, MongoDB and power by TMDB movie api.',
             tags: [
                 'React',
-                'UI/UX',
                 'Nodejs',
                 'Api',
                 'FullStack',
             ]
         },
-        {
-            imgUrl: images.facebook,
-            name: 'Facebook clone',
-            projectLink: 'https://facebook-clone-demo.herokuapp.com/',
-            codeLink : 'https://github.com/Eco-developer/facebook-mern-clone',
-            title: 'Disney plus clone',
-            description: 'An incredible fullstack facebook clone made with JavaScript, React, Redux, Boostrap, Nodejs, Expressjs, MongoDB, D3js, that also implements youtube data api, disease api, and news api.',
-            tags: [
-                'React',
-                'Nodejs',
-                'Api',
-                'FullStack',
-            ]
-        }
     ]
 }
