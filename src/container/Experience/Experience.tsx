@@ -28,9 +28,15 @@ const Experiece = () => {
                         >
                             <h3 className="bold-text">{experience.company}</h3>
                             <h4 className="bold-text">{experience.name}</h4>
-                            <p className="p-text">
-                                {experience.description}
-                            </p>
+                            <ul>
+                                {experience.resposabilities.map((resposability: string, index: number) => (
+                                    <li key={index}>
+                                        <p className="p-text">
+                                            {resposability}
+                                        </p>
+                                    </li>
+                                ))}
+                            </ul>
                         </motion.div>
                     </motion.div>
                     </motion.div>
@@ -41,7 +47,7 @@ const Experiece = () => {
                 transition={{ duration: 0.5 }}
                 className="app__skills-exp-resume"
             >   
-                <a href={images.about01} target="_blank">
+                <a href={`${process.env.PUBLIC_URL}/assets/JoseMiguelQuesadaCamposCV.pdf`} target="_blank">
                     <div>
                         <p>
                             RESUME

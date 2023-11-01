@@ -39,6 +39,9 @@
       margin-bottom: 1rem;
       cursor: pointer;
   
+      ul {
+        max-width: 550px;
+      }
       h4 {
         font-weight: 500;
       }
@@ -52,6 +55,7 @@
 }
   
 .app__skills-exp-year {
+    width: 15rem;
     margin-right: 3rem;
   
     p {

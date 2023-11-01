@@ -79,20 +79,31 @@ export const dataJson : DataJson = {
     ],
     experiences : [
         {
-            year: 'November 2021 - July 2022',
-            name: 'Fullstack developer',
-            company: 'Outsorcing',
-            description: 'Build user interface',
-            acomplishment: [],
-            resposabilities: [],
-        }, 
-        {
-            year: 'July 2022 - August 2022',
+            year: 'July 2022 - August 2023',
             name: 'Frontend developer',
             company: 'Outsorcing',
             description: 'Build user interface',
             acomplishment: [],
-            resposabilities: [],
+            resposabilities: [
+                "Contributed to the development of four currently operational applications that are being utilized by millions of users across the country.",
+                "Developed and implemented responsive web apps using React to enhance user experience following the principles of clean code, such as DRY and SOLID.",
+                "Created a cross-platform application for both web and mobile devices using Ionic, React and TypeScript.",
+                "Led the successful development of two frontend projects with React, overseeing the entire process from design to deployment.",
+                "Created code that is both reusable and scalable, resulting in a reduction of overall code volume and improved app performance.",
+            ],
+        }, 
+        {
+            year: 'September 2021 - July 2022',
+            name: 'Fullstack developer',
+            company: 'Outsorcing',
+            description: 'Build user interface',
+            acomplishment: [],
+            resposabilities: [
+                "Contributed to the development of five applications currently in production, catering to a nationwide user base, compatible with web, tablet, mobile, and TV devices.",
+                "Developed and implemented efficient and scalable full-stack solutions using modern technologies such as React, Ionic, Node.js, and MySQL to deliver high-quality software products, following the principles of clean code, including DRY, SOLID, and OOP.", 
+                "Led the development of one full stack geolocation application, developing the frontend React, the backend with Node.js, the database implementation with SQL, and employing MYSQL database management, overseeing the entire process from design to deployment.",
+                "Developed a mobile and television cross-platform OTT application with Ionic. Angular and TypeScript.", 
+            ],
         }, 
     ],
     projects: [
@@ -105,7 +116,7 @@ export const dataJson : DataJson = {
             description: 'A code challenge from frontend mentor made with React.',
             tags: [
                 'React',
-                'Front-end',
+                'Frontend',
             ]
         },
         {
@@ -118,7 +129,7 @@ export const dataJson : DataJson = {
             tags: [
                 'React',
                 'Api',
-                'Front-end',
+                'Frontend',
             ]
         },
         {
