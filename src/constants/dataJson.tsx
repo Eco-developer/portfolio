@@ -81,8 +81,7 @@ export const dataJson : DataJson = {
         {
             year: 'July 2022 - August 2023',
             name: 'Frontend developer',
-            company: 'Outsorcing',
-            description: 'Build user interface',
+            company: 'Prolesys Consultores C.A.',
             acomplishment: [],
             resposabilities: [
                 "Contributed to the development of four currently operational applications that are being utilized by millions of users across the country.",
@@ -95,8 +94,7 @@ export const dataJson : DataJson = {
         {
             year: 'September 2021 - July 2022',
             name: 'Fullstack developer',
-            company: 'Outsorcing',
-            description: 'Build user interface',
+            company: 'Fibex Telecom',
             acomplishment: [],
             resposabilities: [
                 "Contributed to the development of five applications currently in production, catering to a nationwide user base, compatible with web, tablet, mobile, and TV devices.",
