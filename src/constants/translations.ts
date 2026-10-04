@@ -14,23 +14,23 @@ export const TRANSLATIONS = {
     'home.hero.title1': 'Jose <em>Quesada</em>',
     'home.hero.title2': '<span class="stroke">Fullstack</span> AI Developer',
     'home.hero.title3': 'building for <em>humans</em>.',
-    'home.hero.tagline': '4.5 years shipping Software. Currently building <em style="font-style: italic">Finanzia</em> — a conversational AI agent for personal finance.',
+    'home.hero.tagline': '5 years shipping Software. Currently building <em style="font-style: italic">Finanzia</em> — a conversational AI agent for personal finance.',
     'home.hero.focusKey': 'Focus',
     'home.hero.focusVal': 'FullStack <small>+ Data</small> <small>+ AI</small>',
     'home.hero.sinceKey': 'Since',
-    'home.hero.sinceVal': '2020<small>4.5 yrs</small>',
+    'home.hero.sinceVal': '2020<small>5 yrs</small>',
     'home.hero.scrollCue': 'Scroll to see the work',
 
     // Home - Featured
-    'home.featured.eyebrow': '§ Featured · 2025 — 2026',
-    'home.featured.title': "Two case studies I'd like to <em>talk about</em>.",
-    'home.featured.desc': "Not everything I ship deserves a page. These two do — one solved a real product problem, the other taught me how a piece of infrastructure actually works.",
+    'home.featured.eyebrow': '§ Featured · 2023 — 2026',
+    'home.featured.title': "Two builds I'd like to <em>talk about</em>.",
+    'home.featured.desc': "Not everything I build deserves a page. These two do — one explores conversational agentic AI for personal finance, the other solves responsive media streaming architecture.",
     'home.featured.read': 'Read case study',
 
     // Home - Selected work
-    'home.selected.eyebrow': '§ Selected work · 2024 — 2025',
+    'home.selected.eyebrow': '§ Selected work · Personal builds',
     'home.selected.title': 'A wider <em>index</em>.',
-    'home.selected.desc': 'Production medical portals, telemedicine apps, and digital pharmacy platforms. Click through for detail.',
+    'home.selected.desc': 'Interactive frontend challenges, fullstack streaming clones, and responsive web platforms. Click through for detail.',
     'home.selected.seeAll': 'See all projects →',
 
     // Home - Stack
@@ -46,12 +46,11 @@ export const TRANSLATIONS = {
     // Projects Page
     'projects.eyebrow': '§ Index · {count} projects',
     'projects.title': 'The <em>work</em>, in full.',
-    'projects.desc': "A living index of everything I've shipped that I'm willing to put my name on. Production web apps, mobile solutions, open source, and learning builds.",
+    'projects.desc': "A curated index of personal projects and open-source builds. Streaming platforms, responsive frontend challenges, and interactive applications with live code and demos.",
     'projects.filters.all': 'All',
     'projects.filters.ai': 'AI',
-    'projects.filters.health': 'Healthcare',
-    'projects.filters.mobile': 'Mobile',
     'projects.filters.fullstack': 'Fullstack',
+    'projects.filters.frontend': 'Frontend',
 
     // Project Detail Page
     'project.eyebrow': 'Case study · {idx} / {total} · {year}',
@@ -79,7 +78,7 @@ export const TRANSLATIONS = {
     'about.title': 'Engineer <em style="font-style: italic; color: var(--accent)">first</em>,<br /> designer by <em style="font-style: italic; color: var(--accent)">necessity</em>.',
     'about.lede': 'I build web products that <em>work on the first click</em> and hold up under real use.',
     'about.p1': "I'm Jose. I've been writing software professionally for four and a half years, mostly as a frontend-leaning fullstack engineer. React, Next.js, and Vue on the client; Node and NestJS on the server; SQL underneath. I care about the boring stuff — cache invalidation, loading states, error boundaries, timezone bugs — because that's what separates a demo from a product.",
-    'about.p2': "Lately I've been building <b>Finanzia</b>, a conversational AI agent for personal finance, and developing production apps for DrTas, Medic Tas Global, and Locatel. Before that I led the frontend of mission-critical platforms with millions of users.",
+    'about.p2': "Currently building <b>Finanzia</b>, a conversational AI agent for personal finance, along with interactive streaming platforms, responsive challenges, and open-source frontend architectures. Before that I contributed to mission-critical platforms with millions of users.",
     'about.p3': "I live in Madrid, Spain. I read fiction that's too long, run slowly, and cook.",
     'about.expEyebrow': '§ Experience',
     'about.expTitle': "Places I've <em>worked</em>.",
@@ -107,23 +106,23 @@ export const TRANSLATIONS = {
     'home.hero.title1': 'Jose <em>Quesada</em>',
     'home.hero.title2': 'Desarrollador <span class="stroke">Fullstack</span> e IA',
     'home.hero.title3': 'creando para <em>humanos</em>.',
-    'home.hero.tagline': '4.5 años desarrollando software. Actualmente construyendo <em style="font-style: italic">Finanzia</em> — un agente de IA conversacional para finanzas personales.',
+    'home.hero.tagline': '5 años desarrollando software. Actualmente construyendo <em style="font-style: italic">Finanzia</em> — un agente de IA conversacional para finanzas personales.',
     'home.hero.focusKey': 'Enfoque',
     'home.hero.focusVal': 'FullStack <small>+ Datos</small> <small>+ IA</small>',
     'home.hero.sinceKey': 'Desde',
-    'home.hero.sinceVal': '2020<small>4.5 años</small>',
+    'home.hero.sinceVal': '2020<small>5 años</small>',
     'home.hero.scrollCue': 'Desplaza para ver los proyectos',
 
     // Home - Featured
-    'home.featured.eyebrow': '§ Destacados · 2025 — 2026',
-    'home.featured.title': 'Dos casos de estudio de los que quiero <em>hablar</em>.',
-    'home.featured.desc': 'No todo lo que construyo necesita una página. Estos dos sí: uno resolvió un problema real de producto y el otro me enseñó cómo funciona una infraestructura técnica real.',
+    'home.featured.eyebrow': '§ Destacados · 2023 — 2026',
+    'home.featured.title': 'Dos proyectos de los que quiero <em>hablar</em>.',
+    'home.featured.desc': 'No todo lo que desarrollo necesita una página. Estos dos sí: uno explora IA conversacional con agentes para finanzas personales y el otro resuelve la arquitectura de streaming multimedia.',
     'home.featured.read': 'Ver caso de estudio',
 
     // Home - Selected work
-    'home.selected.eyebrow': '§ Trabajos seleccionados · 2024 — 2025',
+    'home.selected.eyebrow': '§ Trabajos seleccionados · Proyectos personales',
     'home.selected.title': 'Un <em>índice</em> más amplio.',
-    'home.selected.desc': 'Plataformas médicas en producción, telemedicina en tiempo real y apps móviles farmacéuticas. Haz clic para ver detalles.',
+    'home.selected.desc': 'Desafíos frontend interactivos, plataformas de streaming fullstack y aplicaciones web responsivas. Haz clic para ver detalles.',
     'home.selected.seeAll': 'Ver todos los proyectos →',
 
     // Home - Stack
@@ -139,12 +138,11 @@ export const TRANSLATIONS = {
     // Projects Page
     'projects.eyebrow': '§ Índice · {count} proyectos',
     'projects.title': 'Los <em>proyectos</em>, al completo.',
-    'projects.desc': 'Un índice vivo de todo lo que he publicado y respaldado. Aplicaciones web en producción, soluciones móviles y proyectos de código abierto.',
+    'projects.desc': 'Un índice curado de proyectos personales y desarrollos de código abierto. Plataformas de streaming, retos frontend responsivos y aplicaciones interactivas con código y despliegues en vivo.',
     'projects.filters.all': 'Todos',
     'projects.filters.ai': 'IA',
-    'projects.filters.health': 'Salud',
-    'projects.filters.mobile': 'Móvil',
     'projects.filters.fullstack': 'Fullstack',
+    'projects.filters.frontend': 'Frontend',
 
     // Project Detail Page
     'project.eyebrow': 'Caso de estudio · {idx} / {total} · {year}',
@@ -172,7 +170,7 @@ export const TRANSLATIONS = {
     'about.title': 'Ingeniero <em style="font-style: italic; color: var(--accent)">primero</em>,<br /> diseñador por <em style="font-style: italic; color: var(--accent)">necesidad</em>.',
     'about.lede': 'Construyo productos web que <em>funcionan al primer clic</em> y resisten el uso real.',
     'about.p1': 'Soy Jose. Llevo cuatro años y medio escribiendo software profesionalmente, principalmente como ingeniero fullstack con fuerte orientación al frontend. React, Next.js y Vue en el cliente; Node y NestJS en el servidor; SQL en la base. Me preocupo por los detalles cruciales — invalidación de caché, estados de carga, límites de error (error boundaries), problemas de zonas horarias — porque eso es lo que separa una demo de un producto real.',
-    'about.p2': 'Últimamente he estado construyendo <b>Finanzia</b>, un agente de IA conversacional para finanzas personales, y desarrollando aplicaciones en producción para DrTas, Medic Tas Global y Locatel. Anteriormente lideré el desarrollo de múltiples aplicaciones críticas con millones de usuarios activos.',
+    'about.p2': 'Actualmente construyendo <b>Finanzia</b>, un agente de IA conversacional para finanzas personales, junto a plataformas de streaming interactivas, desafíos frontend y arquitecturas web de código abierto. Anteriormente colaboré en el desarrollo de aplicaciones críticas para millones de usuarios.',
     'about.p3': 'Vivo en Madrid, España. Leo ficción extensa, corro a mi ritmo y cocino.',
     'about.expEyebrow': '§ Experiencia',
     'about.expTitle': 'Lugares donde he <em>trabajado</em>.',

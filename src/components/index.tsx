@@ -5,6 +5,10 @@ import { FinanziaMock } from "./FinanziaMock";
 import { YoutubeMock } from "./YoutubeMock";
 import { DrTasMock } from "./DrTasMock";
 import { MedicTasMock } from "./MedicTasMock";
+import { DisneyMock } from "./DisneyMock";
+import { SpaceTourismMock } from "./SpaceTourismMock";
+import { ReserviMock } from "./ReserviMock";
+import { GoldChicksMock } from "./GoldChicksMock";
 import { Marquee } from "./Marquee";
 import { Section } from "./Section";
 import { FooterCTA } from "./FooterCTA";
@@ -17,6 +21,10 @@ export {
   Placeholder,
   FinanziaMock,
   YoutubeMock,
+  DisneyMock,
+  SpaceTourismMock,
+  ReserviMock,
+  GoldChicksMock,
   DrTasMock,
   MedicTasMock,
   Marquee,

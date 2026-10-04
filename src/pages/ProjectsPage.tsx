@@ -6,13 +6,13 @@ import { useTranslator } from "../hooks/useTranslator";
 export function ProjectsPage({ go }: { go: (route: Route) => void; }) {
   const { t, projects } = useTranslator();
   const [filter, setFilter] = useState('all');
-  const filters = ['all', 'AI', 'Healthcare', 'Mobile'];
+  const filters = ['all', 'AI', 'Fullstack', 'Frontend'];
 
   const filterLabels: Record<string, string> = {
     all: t('projects.filters.all'),
     AI: t('projects.filters.ai'),
-    Healthcare: t('projects.filters.health'),
-    Mobile: t('projects.filters.mobile'),
+    Fullstack: t('projects.filters.fullstack'),
+    Frontend: t('projects.filters.frontend'),
   };
 
   const shown = useMemo(() => {
@@ -20,10 +20,11 @@ export function ProjectsPage({ go }: { go: (route: Route) => void; }) {
     const f = filter.toLowerCase();
     return projects.filter(p => {
       const k = p.kind.toLowerCase();
-      if (f === 'ai') return k.includes('ai') || k.includes('ia');
-      if (f === 'healthcare') return k.includes('health') || k.includes('salud') || k.includes('telemed');
-      if (f === 'mobile') return k.includes('mobile') || k.includes('móvil');
-      return k.includes(f);
+      const tags = p.tags.map(tag => tag.toLowerCase());
+      if (f === 'ai') return k.includes('ai') || k.includes('ia') || tags.includes('openai');
+      if (f === 'fullstack') return k.includes('fullstack') || tags.includes('fullstack') || tags.includes('nestjs') || tags.includes('mongodb');
+      if (f === 'frontend') return k.includes('frontend') || tags.includes('frontend') || tags.includes('react');
+      return k.includes(f) || tags.includes(f);
     });
   }, [filter, projects]);
 

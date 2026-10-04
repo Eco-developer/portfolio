@@ -123,8 +123,20 @@ export function ProjectDetailPage({ slug, go }: ProjectDetailProps) {
               <h3>{t('project.approachHeading')}</h3>
               <p>{p.approach}</p>
               <div className="pd-shots">
-                <div className="pd-shot"><Placeholder label="[ screenshot 01 ]" /></div>
-                <div className="pd-shot"><Placeholder label="[ screenshot 02 ]" /></div>
+                <div className="pd-shot">
+                  {p.slug === 'disney-plus-clone' ? (
+                    <img src={`${process.env.PUBLIC_URL}/assets/disneyplus.jpg`} alt="Disney+ Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  ) : p.slug === 'space-tourism' ? (
+                    <img src={`${process.env.PUBLIC_URL}/assets/space-turism.jpg`} alt="Space Tourism Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  ) : p.slug === 'youtube-clone' ? (
+                    <img src={`${process.env.PUBLIC_URL}/assets/youtube.jpg`} alt="Youtube Clone Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  ) : (
+                    <Placeholder label="[ web application preview ]" />
+                  )}
+                </div>
+                <div className="pd-shot">
+                  <Placeholder label="[ responsive interface ]" />
+                </div>
               </div>
             </div>
 
