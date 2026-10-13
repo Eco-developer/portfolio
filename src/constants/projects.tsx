@@ -2,7 +2,6 @@ import { FinanziaMock } from "../components/FinanziaMock";
 import { YoutubeMock } from "../components/YoutubeMock";
 import { DisneyMock } from "../components/DisneyMock";
 import { SpaceTourismMock } from "../components/SpaceTourismMock";
-import { EcommerceMock } from "../components/EcommerceMock";
 
 export interface ProjectItem {
   slug: string;
@@ -115,29 +114,6 @@ export const PROJECTS_EN: ProjectItem[] = [
     outcome: 'Completed Frontend Mentor challenge with perfect responsive fidelity, blazing fast page loads, and intuitive space exploration tabs.',
     Viz: SpaceTourismMock,
   },
-  {
-    slug: 'ecommerce-clone',
-    idx: '05',
-    year: '2024',
-    title: 'E-commerce <em>Clone</em>',
-    plain: 'E-commerce Clone',
-    role: 'Frontend Developer',
-    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Axios'],
-    desc: 'E-commerce marketplace web application inspired by Mercado Libre, featuring dynamic product search, category browsing, cart management, and responsive layouts.',
-    kind: 'Frontend · E-Commerce',
-    url: 'https://reservi-challenge.vercel.app/',
-    githubUrl: 'https://github.com/Eco-developer/reservi-challenge',
-    stats: [
-      { n: 'Next.js 14', l: 'App Router' },
-      { n: '<200ms', l: 'catalog search latency' },
-      { n: 'Tailwind', l: 'modern marketplace UI' },
-      { n: 'Mobile', l: 'first responsive checkout' },
-    ],
-    problem: 'Creating a high-converting e-commerce browsing experience requires fast product catalog filtering, clean visual hierarchy, and an intuitive shopping cart and checkout process across all devices.',
-    approach: 'Developed using React, Next.js 14, and TypeScript with Tailwind CSS replicating Mercado Libre\'s marketplace UX. Implemented instant client-side filtering, category navigation, responsive product cards, and state management for cart operations.',
-    outcome: 'Deployed on Vercel with lightning-fast load times, delivering an intuitive, polished marketplace experience inspired by Mercado Libre.',
-    Viz: EcommerceMock,
-  },
 ];
 
 export const PROJECTS_ES: ProjectItem[] = [
@@ -231,29 +207,6 @@ export const PROJECTS_ES: ProjectItem[] = [
     approach: 'Desarrollado con React y TypeScript desde cero sin librerías externas de UI, implementando variables CSS puras, tipografía fluida y navegación accesible por pestañas para destinos, tripulación y tecnologías espaciales.',
     outcome: 'Reto de Frontend Mentor completado con diseño pixel-perfect, máxima puntuación de rendimiento y una experiencia inmersiva de exploración espacial.',
     Viz: SpaceTourismMock,
-  },
-  {
-    slug: 'ecommerce-clone',
-    idx: '05',
-    year: '2024',
-    title: 'E-commerce <em>Clone</em>',
-    plain: 'E-commerce Clone',
-    role: 'Frontend Developer',
-    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Axios'],
-    desc: 'Plataforma de comercio electrónico inspirada en Mercado Libre, con búsqueda interactiva de productos, navegación por categorías, carrito de compras y diseño adaptable.',
-    kind: 'Frontend · E-Commerce',
-    url: 'https://reservi-challenge.vercel.app/',
-    githubUrl: 'https://github.com/Eco-developer/reservi-challenge',
-    stats: [
-      { n: 'Next.js 14', l: 'App Router' },
-      { n: '<200ms', l: 'latencia en catálogo' },
-      { n: 'Tailwind', l: 'diseño estilo marketplace' },
-      { n: 'Móvil', l: 'experiencia responsive' },
-    ],
-    problem: 'Crear una experiencia de compra fluida requiere un catálogo de productos con filtros rápidos, jerarquía visual limpia y un proceso intuitivo de navegación y carrito de compras adaptable a cualquier pantalla.',
-    approach: 'Creado con React, Next.js 14 y TypeScript con Tailwind CSS recreando la experiencia de usuario de Mercado Libre. Integré filtrado ágil, navegación por categorías, fichas de producto responsive y gestión de estado para el carrito.',
-    outcome: 'Desplegado en Vercel con tiempos de respuesta inmediatos, ofreciendo una experiencia de marketplace atractiva y optimizada para cualquier dispositivo.',
-    Viz: EcommerceMock,
   },
 ];
 
