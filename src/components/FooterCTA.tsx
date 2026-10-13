@@ -57,8 +57,8 @@ export function FooterCTA() {
                 </div>
                 <div style={{ display: 'flex', gap: 12, fontFamily: 'var(--font-mono)', fontSize: 12, textTransform: 'uppercase', letterSpacing: '.1em' }}>
                   <a href="https://github.com/Eco-developer" target="_blank" rel="noreferrer" style={{ borderBottom: '1px solid currentColor' }}>GitHub</a>
-                  <a href="https://linkedin.com" target="_blank" rel="noreferrer" style={{ borderBottom: '1px solid currentColor' }}>LinkedIn</a>
-                  <a href="https://read.cv" target="_blank" rel="noreferrer" style={{ borderBottom: '1px solid currentColor' }}>Read.cv</a>
+                  <a href="https://www.linkedin.com/in/jose-quesada-ecodeveloper/" target="_blank" rel="noreferrer" style={{ borderBottom: '1px solid currentColor' }}>LinkedIn</a>
+                  <a href={cvUrl} target="_blank" rel="noreferrer" style={{ borderBottom: '1px solid currentColor' }}>Read.cv</a>
                 </div>
               </div>
             </div>

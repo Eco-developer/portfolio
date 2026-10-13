@@ -1,17 +1,13 @@
+import React from 'react';
+
 export function YoutubeMock() {
   return (
-    <div className="mock-yt" aria-hidden>
-      <div className="side">
-        <i /><i /><i /><i /><i />
-      </div>
-      <div className="feed">
-        {Array.from({ length: 4 }).map((_, i) => (
-          <div className="card" key={i}>
-            <div className="thumb" />
-            <div className="meta"><div className="a" /><div className="b" /></div>
-          </div>
-        ))}
-      </div>
+    <div style={{ position: 'absolute', inset: 0, overflow: 'hidden' }} aria-hidden>
+      <img
+        src={`${process.env.PUBLIC_URL}/assets/youtube-app.png`}
+        alt="YouTube Clone"
+        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+      />
     </div>
   );
 }

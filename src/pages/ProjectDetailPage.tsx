@@ -129,7 +129,9 @@ export function ProjectDetailPage({ slug, go }: ProjectDetailProps) {
                   ) : p.slug === 'space-tourism' ? (
                     <img src={`${process.env.PUBLIC_URL}/assets/space-turism.jpg`} alt="Space Tourism Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   ) : p.slug === 'youtube-clone' ? (
-                    <img src={`${process.env.PUBLIC_URL}/assets/youtube.jpg`} alt="Youtube Clone Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <img src={`${process.env.PUBLIC_URL}/assets/youtube-app.png`} alt="Youtube Clone Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  ) : p.slug === 'ecommerce-clone' ? (
+                    <img src={`${process.env.PUBLIC_URL}/assets/mercadolibre.png`} alt="E-commerce Clone Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   ) : (
                     <Placeholder label="[ web application preview ]" />
                   )}

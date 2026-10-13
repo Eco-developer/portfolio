@@ -34,8 +34,6 @@ export function AboutPage() {
           <Reveal delay={2}>
             <div>
               <p dangerouslySetInnerHTML={{ __html: t('about.p1') }} />
-              <p dangerouslySetInnerHTML={{ __html: t('about.p2') }} />
-              <p dangerouslySetInnerHTML={{ __html: t('about.p3') }} />
             </div>
           </Reveal>
         </div>

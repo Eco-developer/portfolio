@@ -7,8 +7,7 @@ import { DrTasMock } from "./DrTasMock";
 import { MedicTasMock } from "./MedicTasMock";
 import { DisneyMock } from "./DisneyMock";
 import { SpaceTourismMock } from "./SpaceTourismMock";
-import { ReserviMock } from "./ReserviMock";
-import { GoldChicksMock } from "./GoldChicksMock";
+import { EcommerceMock } from "./EcommerceMock";
 import { Marquee } from "./Marquee";
 import { Section } from "./Section";
 import { FooterCTA } from "./FooterCTA";
@@ -23,8 +22,7 @@ export {
   YoutubeMock,
   DisneyMock,
   SpaceTourismMock,
-  ReserviMock,
-  GoldChicksMock,
+  EcommerceMock,
   DrTasMock,
   MedicTasMock,
   Marquee,
